@@ -5,24 +5,30 @@ A barebone vim plugin to fetch user assigned cards from Trello
 * Trello API keys
 
 ## Installation##
-####Using Vundle####
 
+
+####Using Vundle####
 Append this to .vimrc
-<pre><code>Plugin 'malithsen/trello-vim'
-</code></pre>
+```vim
+Bundle 'malithsen/trello-vim'
+```
 
 Then install in the usual way
-<pre><code>:PluginInstall
-</code></pre>
+```vim
+:BundleInstall
+````
 
 Run INSTALL.py and follow the instructions
-<pre><code>python ~/.vim/bundle/trello-vim/INSTALL.py
-</code></pre>
+```shell
+pip install -r ~/.vim/bundle/trello-vim/requirements.txt
+python ~/.vim/bundle/trello-vim/INSTALL.py
+```
 
 Above step is an one time procedure to set up trello oauth tokens
 
 ## Usage##
 Open assigned cards in a new buffer
-<pre><code>:Cards
-</code></pre>
+```vim
+:Cards
+```
 
